@@ -3,13 +3,25 @@ from classes import *
 p1 = Pessoa("João",65, 23)
 p2 = Pessoa("Maria",68, 24)
 
-print(f'O {p1.nome} tem {p1.idade} anos e pesa {p1.peso}Kgs')
-print(f'A {p2.nome} tem {p2.idade} anos e pesa {p2.peso}Kgs')
+# print(f'O {p1.nome} tem {p1.idade} anos e pesa {p1.peso}Kgs')
+# print(f'A {p2.nome} tem {p2.idade} anos e pesa {p2.peso}Kgs')
 
 print()
 
 p1.comer("coxinha")
-p1.comer()
+p1.falar("oi", p2.nome)
+p1.pararFalar()
+p1.dormir()
+p1.pararComer()
+p1.dormir()
+print()
+p2.comer("pizza")
+p2.pararComer()
+p2.falar("oi", p1.nome)
+p2.dormir()
+p2.pararFalar()
+p2.dormir()
+
 #
 # print()
 #
