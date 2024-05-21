@@ -64,12 +64,26 @@ from classes import *
 # ================================================================
 
 
-# ======================= tester classe animal ===========================
-vaca = Vaca("Leiteira", "Branco listrado")
-vaca.mu()
+# ======================= testes classe animal ===========================
+# vaca = Vaca("Leiteira", "Branco listrado")
+# vaca.mu()
 
-gato = Gato("Maico", "Preto de luva")
-gato.miar()
+# gato = Gato("Maico", "Preto de luva")
+# gato.miar()
 
-cachorro = Cachorro("Meg", "caramelada lightskin")
-cachorro.latir()
+# cachorro = Cachorro("Meg", "caramelada lightskin")
+# cachorro.latir()
+
+# =======================================================================
+
+# ============== testes formas ========================
+
+ret = Retangulo()
+ret.calculoArea(10, 14)
+ret.calcularperi(10, 14)
+
+print()
+
+tri = Triangulo()
+tri.calculoArea(6, 8)
+tri.calcularperi(6, 4, 5)

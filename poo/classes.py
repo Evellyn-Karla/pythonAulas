@@ -190,3 +190,36 @@ class Vaca(Animal):
 
     def mu(self):
         print(f"O {self.nome} foi muuuu...")
+
+
+class Forma():
+    def __init__(self):
+        self.area = 0
+        self.perimetro = 0
+
+class Retangulo(Forma):
+    def __init__(self):
+        super().__init__()
+    
+    
+    def calculoArea(self, b, h):
+        self.area = (b*h)
+        print(f"A area é: {self.area}")
+
+    def calcularperi(self, b, h):
+        self.perimetro = 2*(b*h)
+        print(f"O perimetro é: {self.perimetro}")
+
+
+class Triangulo(Forma):
+    def __init__(self):
+        super().__init__()
+    
+    def calculoArea(self, b, h):
+        self.area = (b*h)/2
+        print(f"A area é: {self.area}")
+
+    def calcularperi(self, l1, l2, l3):
+        self.perimetro = l1+l2+l3
+        print(f"O perimetro é: {self.perimetro}")
+
