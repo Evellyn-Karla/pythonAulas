@@ -11,7 +11,6 @@ from classes import *
 #
 # p1.comer("coxinha")
 # p1.comer()
-=======
 # print(f'O {p1.nome} tem {p1.idade} anos e pesa {p1.peso}Kgs')
 # print(f'A {p2.nome} tem {p2.idade} anos e pesa {p2.peso}Kgs')
 
