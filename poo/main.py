@@ -78,12 +78,24 @@ from classes import *
 
 # ============== testes formas ========================
 
-ret = Retangulo()
-ret.calculoArea(10, 14)
-ret.calcularperi(10, 14)
+# ret = Retangulo()
+# ret.calculoArea(10, 14)
+# ret.calcularperi(10, 14)
+#
+# print()
+#
+# tri = Triangulo()
+# tri.calculoArea(6, 8)
+# tri.calcularperi(6, 4, 5)
 
+# =========================================================
+
+
+# ============= ingresso ====================
+
+ing = Ingresso(40)
+ing.imprimeValor()
 print()
 
-tri = Triangulo()
-tri.calculoArea(6, 8)
-tri.calcularperi(6, 4, 5)
+vip = Vip(ing)
+vip.imprimeVip()

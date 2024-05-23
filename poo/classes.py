@@ -206,7 +206,7 @@ class Retangulo(Forma):
         self.area = (b*h)
         print(f"A area é: {self.area}")
 
-    def calcularperi(self, b, h):
+    def calcularPeri(self, b, h):
         self.perimetro = 2*(b*h)
         print(f"O perimetro é: {self.perimetro}")
 
@@ -219,7 +219,24 @@ class Triangulo(Forma):
         self.area = (b*h)/2
         print(f"A area é: {self.area}")
 
-    def calcularperi(self, l1, l2, l3):
+    def calcularPeri(self, l1, l2, l3):
         self.perimetro = l1+l2+l3
         print(f"O perimetro é: {self.perimetro}")
+
+
+class Ingresso():
+    def __init__(self, valor):
+        self.valor = valor
+
+    def imprimeValor(self):
+        print(f"O valor do ingresso é: R${self.valor:.2f}")
+
+class Vip(Ingresso):
+    def __init__(self, ing):
+        super().__init__(valor= ing.valor)
+
+    def imprimeVip(self):
+        vip = self.valor + (self.valor*0.5)
+        print(f"Valor do VIP: R${vip:.2f}")
+
 
