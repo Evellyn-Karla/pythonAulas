@@ -4,3 +4,4 @@ __pycache__
 .upm/
 .replit
 replit.nix
+.breakpoints
