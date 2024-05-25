@@ -1,0 +1,96 @@
+{
+  "files": {
+    "desafios/main.py": [
+      {
+        "id": "416804ed-604f-4089-a06c-3bf146b339e9",
+        "line": 1,
+        "version": 368,
+        "index": 0
+      },
+      {
+        "id": "f3bace68-f082-409b-9977-f2c2d1ee1bc9",
+        "line": 3,
+        "version": 368,
+        "index": 23
+      },
+      {
+        "id": "ed61aaac-aeb3-4ac1-836d-6aae755b0df3",
+        "line": 4,
+        "version": 368,
+        "index": 37
+      },
+      {
+        "id": "1d296cd7-e27b-4524-a5c0-2ecf38459500",
+        "line": 7,
+        "version": 368,
+        "index": 54
+      },
+      {
+        "id": "0aa1865d-f709-4d1c-ac0b-201a33e8ee6d",
+        "line": 8,
+        "version": 368,
+        "index": 110
+      },
+      {
+        "id": "a2b10421-8f36-4ab4-8e81-13264e808d6d",
+        "line": 10,
+        "version": 368,
+        "index": 167
+      },
+      {
+        "id": "a675e5b5-9f1d-47c3-84a9-70b6906f7be7",
+        "line": 11,
+        "version": 368,
+        "index": 191
+      },
+      {
+        "id": "c3fc162c-b96c-4752-b157-842e849f2705",
+        "line": 12,
+        "version": 368,
+        "index": 224
+      },
+      {
+        "id": "346473e1-7b83-430e-adf6-457ecccc0093",
+        "line": 13,
+        "version": 368,
+        "index": 234
+      },
+      {
+        "id": "6e539bce-4844-47da-9e2c-d96f6ac20549",
+        "line": 14,
+        "version": 368,
+        "index": 281
+      },
+      {
+        "id": "2fa34be4-f2fa-4b57-b4b3-b56e64ef1ee2",
+        "line": 15,
+        "version": 368,
+        "index": 302
+      },
+      {
+        "id": "177bcc69-4bb7-4309-9068-1c7988ad8df2",
+        "line": 16,
+        "version": 368,
+        "index": 335
+      },
+      {
+        "id": "ba8f7bbc-7eef-4292-bc35-33ac65e61ff7",
+        "line": 17,
+        "version": 368,
+        "index": 382
+      },
+      {
+        "id": "b22ab016-7eec-44eb-a395-9953e2337b43",
+        "line": 18,
+        "version": 368,
+        "index": 403
+      },
+      {
+        "id": "4422b11c-c64a-4016-9bbc-7900b28ca385",
+        "line": 19,
+        "version": 368,
+        "index": 436
+      }
+    ]
+  }
+}
